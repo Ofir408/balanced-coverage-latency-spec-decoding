@@ -3,19 +3,6 @@
 This repository contains the reference implementation for the paper:
 
 > **Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding**
-Paper link: https://arxiv.org/abs/2603.05210
-> 
-# Citation
-
-If you find this paper useful or use this code, please cite:
-```bibtex
-@article{shoham2026balancing,
-  title={Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding},
-  author={Shoham, Ofir Ben},
-  journal={arXiv preprint arXiv:2603.05210},
-  year={2026}
-}
-```
 
 ## Overview
 
@@ -34,7 +21,7 @@ Token coverage $C(k)$ is computed over **assistant response tokens only** (match
 ## Installation
 
 ```bash
-git clone https://github.com/Ofir408/Balancing-Coverage-and-Draft-Latency-in-Vocabulary-Trimming-for-Faster-Speculative-Decoding.git
+git clone <github_url>
 cd Balancing-Coverage-and-Draft-Latency-in-Vocabulary-Trimming-for-Faster-Speculative-Decoding
 pip install -r requirements.txt
 ```
