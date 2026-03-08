@@ -4,6 +4,18 @@ This repository contains the reference implementation for the paper:
 
 > **Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding**
 
+# Citation
+
+If you find this paper useful or use this code, please cite:
+```bibtex
+@article{shoham2026balancing,
+  title={Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding},
+  author={Shoham, Ofir Ben},
+  journal={arXiv preprint arXiv:2603.05210},
+  year={2026}
+}
+```
+
 ## Overview
 
 Speculative decoding accelerates LLM inference by using a lightweight draft model to propose candidate tokens verified in parallel by the target model. The draft model's language modeling (LM) head, which projects hidden states to vocabulary logits, often dominates draft latency — accounting for over 60% of FLOPs for models like LLaMA-3-8B.
