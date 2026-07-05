@@ -3,6 +3,7 @@
 This repository contains the reference implementation for the paper:
 
 > **Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding**
+> 
 Paper link: https://arxiv.org/abs/2603.05210
 > 
 # Citation
